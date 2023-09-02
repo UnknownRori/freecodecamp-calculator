@@ -22,6 +22,7 @@ function shouldDecimal(displayed: string): boolean {
 function doMath(formula: string) {
     const mathExpr = new Mexp()
     const convertedFormula = formula.replace("÷", "/").replace("X", "*");
+    // @ts-ignore
     return mathExpr.eval(convertedFormula);
 }
 
