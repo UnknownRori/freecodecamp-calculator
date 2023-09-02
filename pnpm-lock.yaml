@@ -1,6 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
+  math-expression-evaluator:
+    specifier: ^2.0.3
+    version: 2.0.3
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1529,6 +1536,10 @@ packages:
     dependencies:
       yallist: 4.0.0
     dev: true
+
+  /math-expression-evaluator@2.0.3:
+    resolution: {integrity: sha512-sAuxMtmCVjVnp70mT1kDHdVpiVSQtpLP4crI67wvJfoOfSSB2CBpQ9MtYtEhZL87lVnFviKK2d/sSfgOCKQ+mg==}
+    dev: false
 
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
